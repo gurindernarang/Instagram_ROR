@@ -1,24 +1,19 @@
-# README
+# Instagram like clone using ROR
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version (ruby 2.7.1p83)
 
-Things you may want to cover:
+* Rails version (5.0.7.2)
 
-* Ruby version
-
-* System dependencies
+* System dependencies 
 
 * Configuration
 
-* Database creation
+* Database creation - SQLite3 (1.3.13)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Installation
+```git clone git@github.com:gurindernarang/Instagram_ROR.git
+cd Instagram_ROR
+gem install bundler
+bundle install
+rails s
+```
