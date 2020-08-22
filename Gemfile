@@ -10,6 +10,12 @@ end
 gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.6'
+# Templating engine HAML
+gem 'haml'
+# Paper Clip to upload images
+gem 'paperclip', '~> 6.0.0'
+# Gem to generate form in Views
+gem 'simple_form'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
