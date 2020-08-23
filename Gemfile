@@ -16,6 +16,9 @@ gem 'haml'
 gem 'paperclip', '~> 6.0.0'
 # Gem to generate form in Views
 gem 'simple_form'
+#Bootstrap for styling
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
