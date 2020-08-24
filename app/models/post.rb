@@ -5,5 +5,4 @@ class Post < ApplicationRecord
   validates_attachment_content_type :image, :content_type =>
       /\Aimage\/.*\Z/
   belongs_to :user
-  has_may :posts, dependent: :destroy
 end
